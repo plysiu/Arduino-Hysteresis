@@ -1,3 +1,6 @@
+#ifndef HYSTERESIS_H
+#define HYSTERESIS_H
+
 #include <system_configuration.h>
 #include <unwind-cxx.h>
 #include <utility.h>
@@ -12,3 +15,4 @@ class Hysteresis {
     bool isRising();
     float lastValue();
 }; 
+#endif
